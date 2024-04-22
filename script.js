@@ -1,5 +1,7 @@
 function minDate(dates) {
   //write you code here
+	dates = dates.sort((a,b) => a-b);
+	return dates[0];
 }
 
 // Do not change the code
